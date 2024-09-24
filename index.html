@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Martin Tomašković</title>
+
+		<link rel="shortcut icon" href="images/site_icon.ico" type="image/x-icon">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<link rel="stylesheet" href="style.css">
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	</head>
+<body class="lightMode">
+	<div class="layout">
+		<div class="navOpener">
+			<div class="holder">
+				<i class="fa-brands fa-linkedin" onclick="window.location.href = 'https://www.linkedin.com/in/martin-toma%C5%A1kovi%C4%87-2a6a59221/'"></i>
+				<i class="fa-brands fa-facebook" onclick=""></i>
+				<i class="fa-brands fa-instagram" onclick="window.location.href = 'https://www.instagram.com/m4rtin_t_/'"></i>
+				<i class="fa-brands fa-youtube"></i>
+			</div>
+        </div>
+        <nav>
+			<div class="holder">
+				<div class="navCont">
+					<a href="#me">About me</a>
+					<a href="#proj">Projects</a>
+					<a href="#tech">Utilised technologies</a>
+					<a href="#hist">Working history</a>
+					<a href="#hobi">Hobies</a>
+					<a href="javascript:void(0);" id="info-left-nav">Info</a>
+					<p><b>phone: </b>+385 91 727 9398</p>
+					<p><b>education: </b>Third-year Computer Science student at FERIT</p>
+					<img src="images/ferit-logo.png" onclick="window.location.href = 'https://www.ferit.unios.hr/'">
+				</div>
+			</div>
+        </nav>
+		<div class="content">
+			<main>
+				<nav id="nav2">
+					<a href="#me">About me</a>
+					<a href="#proj">Projects</a>
+					<a href="#tech">Utilised technologies</a>
+					<a href="#hist">Workinghistory</a>
+					<a href="#hobi">Hobies</a>
+				</nav>
+				<header>
+					<h1>Martin Tomašković</h1>
+					<div class="infoBox">
+						<p><b>phone: </b>+385 91 727 9398</p>
+						<p><b>education: </b>Third-year Computer Science student at FERIT</p>
+						<img src="images/ferit-logo.png" onclick="window.location.href = 'https://www.ferit.unios.hr/'">
+					</div>
+				</header>
+				<section>
+					<h2 id="me">About me</h2>
+					<p>I have experience working across multiple operating systems, including Linux and Windows, and I am skilled in both frontend and backend web development. I possess a strong understanding of web APIs, asynchronous programming, and smart contract development (specifically for the Ethereum network). Additionally, I have expertise in creating standalone frontend applications that don’t require backend communication, as well as experience in local blockchain development environments. Programming and coding are my passions, and I actively engage in these pursuits during my free time.</p>
+				</section>
+				<section>
+					<h2 id="proj">Projects</h2>
+					<div class="gallery">
+						<div class="cont">
+							<img src="images/swappy.png" style="object-position: top center;">
+						</div>
+						<div class="cont">
+							<img src="images/swappyTrade.png" style="object-position: top center;">
+						</div>
+						<div class="cont">
+							<img src="images/gameEngineCode.png" style="object-position: left center;">
+						</div>
+						<div class="cont">
+							<img src="images/gameEngine.png">
+						</div>
+					</div>
+					<p>I have worked on numerous JavaScript and C++ projects, but here I highlight my most recent ones: a game engine and a web application for swapping ERC20 tokens.
+					</p>
+				</section>
+				<section>
+					<h2 id="tech">Utilised technologies</h2>
+					<ul>
+						<li><b>c</b></li>
+						<li><b>c++</b></li>
+						<li>sfml, sdl2, glfw, glad, assimp, glm</li>
+						<li><b>python</b></li>
+						<li><b>linux</b></li>
+						<li>arch based, debian based</li>
+					</ul>
+				</section>
+				<section>
+					<h2 id="hist">Working history</h2>
+					<ul>
+						<li><b>Hotel Bluesan </b>(waitering)</li>
+						<li><b>Bakkavör </b>(warehouse work)</li>
+						<li><b>Beyondi </b>(Back end dev.)</li>
+						<li><b>Coding Giants </b>(python programming teacher)</li>
+					</ul>
+				</section>
+				<section>
+					<h2 id="hobi">Hobies</h2>
+					<div class="hoby">Swimming</div>
+					<div class="hoby">Learning japanese</div>
+					<div class="hoby">Watching movies</div>
+					<div class="hoby">Game programming</div>
+					<div class="hoby">Hanging out</div>
+					<div class="hoby">Math</div>
+					<div class="hoby">Electronics</div>
+				</section>
+			</main>
+			<footer>
+				<div class="cont">
+					<p>&copy; Martin Tomašković</p>
+				</div>
+			</footer>
+		</div>
+    </div>
+	<div class="frame">
+		<div id="image-full-view"></div>
+	</div>
+	<div id="visibility_setter">
+		<div id="visibility_cog"></div>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
